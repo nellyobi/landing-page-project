@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SheCodes</title>
+    <meta charset="UTF-8" />
+
+    <style>
+    body {
+  font-family: sans-serif;
+  padding: 0 20px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 34px;
+  line-height: 48px;
+}
+
+h1 h2,
+h3 {
+  color: #231d3c;
+}
+
+.logo {
+  display: block;
+  margin: 30px auto;
+  width: 150px;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 16px;
+}    
+    </style>
+  </head>
+
+  <body>
+    <img src="images/logo.png" alt="SheCOdes" class="logo" />
+    <h1>HTML Embeds</h1>
+
+    <h3>Challenge 1</h3>
+    <p>Embed any YouTube video below</p>
+    <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/e82VE8UtW8A?si=JwbhV6AyKke5GcuS" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+    </iframe>
+    
+
+    <h3>Challenge 2</h3>
+    <p>Embed another YouTube video and make sure it's responsive</p>
+    <iframe
+      class="embed"
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/i4fxs5JLBvc?si=8Cw0T1QjkQRrioyC"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    >
+    </iframe>
+
+    <h3>Challenge 3</h3>
+    <p>
+      Embed a media from any website (other than YouTube) and make it responsive
+    </p>
+    <iframe
+      class="embed"
+      src="https://www.vogue.com/article/rihanna-rocker-chic-spring-style"
+      title="Vogue"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <script src="src/index.js"></script>
+  </body>
+</html>
